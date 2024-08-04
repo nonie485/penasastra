@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pena Sastra</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+        }
+    .header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+    .nav {
+            background-color: #444;
+            padding: 10px;
+            text-align: center;
+        }
+    .nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+    .nav a:hover {
+            color: #ccc;
+        }
+    .content {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 20px;
+        }
+    .card {
+            background-color: #fff;
+            padding: 20px;
+            margin: 20px;
+            width: 300px;
+            border: 1px solid #ddd;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+    .card h2 {
+            margin-top: 0;
+        }
+    .card p {
+            margin-bottom: 20px;
+        }
+    .form {
+            max-width: 400px;
+            margin: 40px auto;
+            padding: 20px;
+            background-color: #fff;
+            border: 1px solid #ddd;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+    .form label {
+            display: block;
+            margin-bottom: 10px;
+        }
+    .form input,.form textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 20px;
+            border: 1px solid #ccc;
+        }
+    .form button[type="submit"] {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+    .form button[type="submit"]:hover {
+            background-color: #444;
+        }
+    .logo {
+            width: 50px;
+            height: 50px;
+            margin: 10px;
+            border-radius: 50%;
+        }
+    .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 20px;
+        }
+    .gallery img {
+            width: 200px;
+            height: 150px;
+            margin: 10px;
+            border: 1px solid #ddd;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <img src="logo-sman1-kotabaru.png" alt="Logo SMAN 1 Kotabaru" class="logo">
+        <h1>Pena Sastra</h1>
+        <p>SMAN 1 KOTABARU</p>
+    </header>
+    <nav class="nav">
+        <a href="#karya-sastra">Karya Sastra</a>
+        <a href="#anggota">Anggota</a>
+        <a href="#tentang">Tentang Kami</a>
+        <a href="#tambah-karya">Tambah Karya</a>
+        <a href="#akun">Akun Saya</a>
+        <a href="#galeri">Galeri</a>
+        <a href="#buat-akun">Buat Akun</a>
+    </nav>
+    <main class="content">
+        <section id="karya-sastra">
+            <h2>Karya Sastra</h2>
+            <button type="button" class="btn-add-karya">Tambah Karya</button>
+            <!-- Add cards for each literary work -->
+        </section>
+        <section id="anggota">
+            <h2>Anggota</h2>
+            <!-- Add list of members -->
+        </section>
+        <section id="tentang">
+            <h2>Tentang Kami</h2>
+            <!-- Add about us content -->
+        </section>
+        <section id="tambah-karya">
+            <h2>Tambah Karya</h2>
+            <form>
+                <label for="
